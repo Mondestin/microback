@@ -19,4 +19,4 @@ app.use(express.json());
 // init the routes
 app.use('/api',UserRoute);
 // set the port and run start the server
-app.listen(5000, ()=> console.log('Server up and running...'));
+app.listen(3000, ()=> console.log('Server up and running...'));
